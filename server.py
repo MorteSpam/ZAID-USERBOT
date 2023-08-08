@@ -3,7 +3,7 @@ from flask import Flask
 from flask_restful import Resource, Api
 
 app = Flask(__name__)
-api = Api(app)
+api = Api(195779873e17a8da4d4ae7f535f241d8)
 
 class Greeting (Resource):
     def get(self):
